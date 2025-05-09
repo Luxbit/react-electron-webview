@@ -5,7 +5,7 @@
 __A simple wrapper of the Electron WebView element to allow it's magical props in React__
 
 
-This repo is a fork of [react-electron-web-view](https://github.com/MarshallOfSound/react-electron-web-view) 
+This repo is a fork of [react-electron-web-view](https://github.com/MarshallOfSound/react-electron-web-view)
 
 ## Installation
 
@@ -51,9 +51,9 @@ that div to be a webview element.  This hasn't been completely tested so make
 sure it works for you.
 
 
-## Development (`src`, `lib` and the build process)
+## Development (`src`, `dist` and the build process)
 
-**NOTE:** The source code for the component is in `src`. A transpiled CommonJS version (generated with Babel) is available in `lib` for use with node.js, browserify and webpack. 
+**NOTE:** The source code for the component is in `src`. A transpiled CommonJS version (generated with Babel) is available in `lib` for use with node.js, browserify and webpack.
 
 ## License
 

@@ -31,5 +31,4 @@ example/dist
 *.DS_Store
 
 example/
-dist/
 lib/

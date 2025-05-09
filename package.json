@@ -1,8 +1,8 @@
 {
   "name": "@luxbit/react-electron-webview",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "React Wrapper for Electron WebView",
-  "main": "lib/ElectronWebView.js",
+  "main": "dist/ElectronWebView.js",
   "author": "Olivier Puraye",
   "homepage": "https://github.com/luxbit/react-electron-webview",
   "repository": {
@@ -47,7 +47,7 @@
     "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "scripts": {
-    "build": "mkdir -p lib && webpack",
+    "build": "mkdir -p dist && webpack",
     "prepublish": "npm run build",
     "lint": "exit 0",
     "mocha": "electron-mocha test/*_spec.js --renderer --compilers js:babel-core/register --timeout=10000",
